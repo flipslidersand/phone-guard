@@ -1,0 +1,48 @@
+# Go
+*.o
+*.a
+*.so
+.DS_Store
+bin/
+dist/
+vendor/
+go.sum
+
+# Python (if needed)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# ESP32 / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.bin
+build/
+.vscode/c_cpp_properties.json
+
+# Database
+*.db
+*.sql~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials
+.env
+.env.local
+credentials.json
+line_token.txt
+
+# Build artifacts
+/backend/api
+/backend/bin
+
+# Firmware
+*.hex
+*.elf
