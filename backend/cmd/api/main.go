@@ -18,8 +18,6 @@ import (
 )
 
 func main() {
-	ctx := context.Background()
-
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
