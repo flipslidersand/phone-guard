@@ -6,7 +6,6 @@
 bin/
 dist/
 vendor/
-go.sum
 
 # Python (if needed)
 __pycache__/
